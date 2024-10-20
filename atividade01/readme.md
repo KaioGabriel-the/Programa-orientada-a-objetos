@@ -13,4 +13,4 @@ CLASSE QUADRADO:<br>
 
 ## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 03</span>
 > <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace">CPC: NÃO É IMPORTANTE - Jogos, MODERADAMENTE IMPORTANTE - Chips, ESSENCIAL - SUS; <br>
-</span>
+HISTÓRICO DE SAÚDE: NÃO É IMPORTANTE - Jogos, MODERADAMENTE IMPORTANTE - Empresas, ESSENCIAL - SUS;<br></span>
