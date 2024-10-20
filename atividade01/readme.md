@@ -42,4 +42,4 @@ CLASSE QUADRADO:<br>
 
 ## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 10</span>
 > <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace">O diagrama UML de classe.</span>
-> ![Código da questão]()
+> ![Código da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/blob/c1c9ff573e23c445fcaa942114c662067f243067/atividade01/imagemuml.png)
