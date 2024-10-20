@@ -24,3 +24,9 @@ CLASSE QUADRADO:<br>
 
 ## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 04</span>
 > <span style=" font-family: 'OCR A Std', monospace">A- Não seria, pois esse atributo se tornaria redundante dentro do sistema. <br> B- Sim seria, pois a filtrar do sistema ficaria mais eficiente. Uma estruta de dados.</span>
+
+## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 05</span>
+> <span style=" font-family: 'OCR A Std', monospace">Curso, nota, período, horas extracurriculares, laboratório.<br></span>
+
+## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 06</span>
+> <span style=" font-family: 'OCR A Std', monospace">Jogo de futebol<br> ATRIBUTOS --> Duração, quantidade de jogadores, quantidade de cartões, placar, time da casa, time visitante; <br>MÉTODOS--> Substituir jogador, aplicar cartão, intervalo; <br></span>
