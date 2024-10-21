@@ -23,7 +23,7 @@ CLASSE QUADRADO:<br>
 | Etnia                       | Jogos eletrônicos                        | Cadúnico                    | SISU                   |
 
 ## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 04</span>
-> <span style=" font-family: 'OCR A Std', monospace">A- Não seria, pois esse atributo se tornaria redundante dentro do sistema. <br> B- Sim seria, pois a filtrar do sistema ficaria mais eficiente. Uma estruta de dados.</span>
+> <span style=" font-family: 'OCR A Std', monospace">A- Não seria, pois esse atributo se tornaria redundante dentro do sistema. <br> B- Sim seria, pois a filtrar do sistema ficaria mais eficiente. Uma estruta de dados. Um array.</span>
 
 ## <span style="color: #A0C4E8; font-family: 'OCR A Std', monospace"> QUESTÃO 05</span>
 > <span style=" font-family: 'OCR A Std', monospace">Curso, nota, período, horas extracurriculares, laboratório.<br></span>
