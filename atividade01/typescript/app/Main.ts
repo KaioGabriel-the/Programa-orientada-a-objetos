@@ -6,6 +6,7 @@ import { SituacaoFinaceira } from '../classe/SituacaoFinaceira';
 function enter(): void{
     const input = String(question("APERTE ENTER..."));
 }
+
 function Main(){
     const menu = ` ----- MENU ----- 
     1- RETANGULO

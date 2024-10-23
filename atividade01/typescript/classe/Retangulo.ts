@@ -8,8 +8,12 @@ export class Rentangulo {
         this.ladomenor = ladomenor;
     }
 
-    perimetro(): number{
+    public perimetro(): number{
         const result = 2 * (this.ladomaior + this.ladomenor);
         return result;
+    }
+    //Novo método criado
+    public ehQuadrado():String{
+        return this.ladomaior === this.ladomenor ? "True" : "False";
     }
 }
