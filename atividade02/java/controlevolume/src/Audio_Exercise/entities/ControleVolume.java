@@ -1,4 +1,4 @@
-package entities;
+package Audio_Exercise.entities;
 
 public class ControleVolume {
     private int volume = 5;
