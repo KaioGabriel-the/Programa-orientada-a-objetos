@@ -21,7 +21,7 @@
 > [Código da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/5ae0fd2ec82fed741f306e25ba92eae1eeb7369a/atividade02/typescript)
 
 ## *6- QUESTÃO*
-> [Código da questão]()
+> [Código da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/blob/cb8f776499235b5122adabf308d1a7afbd810d07/atividade01/typescript/classe/Retangulo.ts)
 
 ## *7- QUESTÃO*
 > [Código da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/9d3191746f64f54dbf4b707eccea48838f51dde9/atividade02/java)
