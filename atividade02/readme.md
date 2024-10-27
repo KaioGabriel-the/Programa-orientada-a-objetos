@@ -18,7 +18,7 @@
 > (1) OBJETO <br>
 
 ## *5- QUESTÃO*
-> [Código da questão]()
+> [Código da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/5ae0fd2ec82fed741f306e25ba92eae1eeb7369a/atividade02/typescript)
 
 ## *6- QUESTÃO*
 > [Código da questão]()
