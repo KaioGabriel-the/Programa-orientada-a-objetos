@@ -19,7 +19,7 @@
 > *  Não. Essa característica está mais ligada ao tipo de tipagem unificada ou flexível.
 
 ## Questão 06
-> * [Link da questão]()
+> * [Link da questão](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/blob/c3b2aa4e5bced228aecd11fc8fb086187ce4bf1f/atividade03/frase.ts)
 
 ## Questão 07
 > * [Link da questão]()
