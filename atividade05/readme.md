@@ -13,7 +13,7 @@
 > * Não haverá erro, pois em algumas linguagens não é preciso inicializar as variáveis.
 
 > ## **Questão 03**
-> - [Código]()
+> - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/f31beed267f1d2dbc0a55a19fdeb5c6662087b8b/atividade05/out/production/questoes/reservahotel)
 
 > ## **Questão 04**
 > * O atributo da classe foi inicializado, mas quando o objeto foi instanciado no código, o valor desse atributo não foi passado corretamente. Minha solução para o problema é garantir que esse valor seja passado durante a instância do objeto, por meio do construtor ou de um método setter, conforme necessário.
