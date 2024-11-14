@@ -26,7 +26,7 @@
 > - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/ea7a50d2fb7af6db58884cd4b6a2ae8b89aaaad7/atividade05/out/production/questoes/saudacao)
 
 > ## **Questão 07**
-> - [Código]()
+> - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/219f7456935b08c8805919a8941cf0f23067fd7d/atividade05/out/production/questoes/triangulo)
 
 > ## **Questão 08**
 > - [Código]()
