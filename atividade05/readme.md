@@ -29,7 +29,7 @@
 > - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/219f7456935b08c8805919a8941cf0f23067fd7d/atividade05/out/production/questoes/triangulo)
 
 > ## **Questão 08**
-> - [Código]()
+> - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/c90aa59c87db143f7349d56d8ae037709a6393e7/atividade05/out/production/questoes/equipamento)
 
 > ## **Questão 09**
 > - [Código]()
