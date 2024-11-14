@@ -23,7 +23,7 @@
 > - **B** - Ele acabou sendo perdido na memória e **C1** passa a apontar para **C2**.
 
 > ## **Questão 06**
-> - [Código]()
+> - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/ea7a50d2fb7af6db58884cd4b6a2ae8b89aaaad7/atividade05/out/production/questoes/saudacao)
 
 > ## **Questão 07**
 > - [Código]()
