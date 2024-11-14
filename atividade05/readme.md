@@ -21,3 +21,21 @@
 > ## **Questão 05**
 > - **A** - Irão apresentar a resposta 90.
 > - **B** - Ele acabou sendo perdido na memória e **C1** passa a apontar para **C2**.
+
+> ## **Questão 06**
+> - [Código]()
+
+> ## **Questão 07**
+> - [Código]()
+
+> ## **Questão 08**
+> - [Código]()
+
+> ## **Questão 09**
+> - [Código]()
+
+> ## **Questão 10**
+> - [Código]()
+
+> ## **Questão 11**
+> - 
