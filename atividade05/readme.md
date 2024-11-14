@@ -1,1 +1,23 @@
 # ATIVIDADE 05
+
+> ## **Questão 01**
+> - [ ] Objetos são modelos para classes;
+> - [ ] Atributos de uma classe devem ser obrigatoriamente inicializados para que as classes compilem;
+> - [ ] Uma variável declarada dentro de um método deve ser inicializada para que a classe seja compilável;
+> - [ ] Uma variável que seja uma classe declarada em um método é automaticamente inicializada com `undefined`;
+> - [x] Construtores são rotinas especiais que servem para inicializar e configurar os objetos no momento da instanciação;
+> - [x] Construtores não possuem tipo de retorno e podem ou não ter parâmetros;
+> - [x] Uma classe pode ter várias instâncias.
+
+> ## **Questão 02**
+> * Não haverá erro, pois em algumas linguagens não é preciso inicializar as variáveis.
+
+> ## **Questão 03**
+> - [Código]()
+
+> ## **Questão 04**
+> * O atributo da classe foi inicializado, mas quando o objeto foi instanciado no código, o valor desse atributo não foi passado corretamente. Minha solução para o problema é garantir que esse valor seja passado durante a instância do objeto, por meio do construtor ou de um método setter, conforme necessário.
+
+> ## **Questão 05**
+> - **A** - Irão apresentar a resposta 90.
+> - **B** - Ele acabou sendo perdido na memória e **C1** passa a apontar para **C2**.
