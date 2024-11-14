@@ -35,7 +35,7 @@
 > - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/44561f29e4bc29ff65d684350172c1797a9a057b/atividade05/out/production/questoes/conta)
 
 > ## **Questão 10**
-> - [Código]()
+> - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/0c4b8af1787d18d150b1b1fd86fc3cee4d8bc08e/atividade05/out/production/questoes/jogador)
 
 > ## **Questão 11**
-> - 
+> - Acho que a 10ª questão está correta, pois o código faz com que o jogador não seja mais afetado.
