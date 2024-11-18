@@ -2,7 +2,7 @@
 
 > ## **Questão 01**
 > - [ ] Objetos são modelos para classes;
-> - [ ] Atributos de uma classe devem ser obrigatoriamente inicializados para que as classes compilem;
+> - [x] Atributos de uma classe devem ser obrigatoriamente inicializados para que as classes compilem;
 > - [ ] Uma variável declarada dentro de um método deve ser inicializada para que a classe seja compilável;
 > - [ ] Uma variável que seja uma classe declarada em um método é automaticamente inicializada com `undefined`;
 > - [x] Construtores são rotinas especiais que servem para inicializar e configurar os objetos no momento da instanciação;
@@ -10,7 +10,7 @@
 > - [x] Uma classe pode ter várias instâncias.
 
 > ## **Questão 02**
-> * Não haverá erro, pois em algumas linguagens não é preciso inicializar as variáveis.
+> * Haverá errro, poderia ser evitado inicializado-a.
 
 > ## **Questão 03**
 > - [Código](https://github.com/KaioGabriel-the/Programa-orientada-a-objetos/tree/f31beed267f1d2dbc0a55a19fdeb5c6662087b8b/atividade05/out/production/questoes/reservahotel)
