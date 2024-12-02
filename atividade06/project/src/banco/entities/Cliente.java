@@ -74,4 +74,14 @@ public class Cliente {
     public String getCpf() {
         return cpf;  // Retorna o CPF do cliente
     }
+
+    /**
+     * <h2>Método getId</h2>
+     * <p>Este método retorna o identificador único da conta bancária.</p>
+     * @return O ID da conta, representado por um número do tipo inteiro (int).
+     */
+    public int getId() {
+        return id;  // Retorna o ID da conta
+    }
+
 }

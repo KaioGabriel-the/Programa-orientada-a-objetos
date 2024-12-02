@@ -65,6 +65,15 @@ public class Conta {
     }
 
     /**
+     * <h2>Método getCliente</h2>
+     * <p>Retorna o cliente associado à conta bancária.</p>
+     * @return O cliente associado à conta.
+     */
+    public Cliente getCliente(){
+        return cliente;  // Retorna o cliente associado à conta
+    }
+
+    /**
      * <h2>Método setCliente</h2>
      * <p>Associa um novo cliente à conta.</p>
      * @param cliente O cliente a ser associado à conta.
