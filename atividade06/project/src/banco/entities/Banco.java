@@ -122,18 +122,45 @@ public class Banco {
      * <h2>Método ListContasCliente</h2>
      * <p>Este método lista todas as contas associadas a um cliente específico, dado o CPF do cliente.</p>
      * @param cpf O CPF do cliente cujas contas serão listadas.
+     * @return Uma lista de contas associadas ao cliente com o CPF fornecido.
      */
-    public void ListContasCliente(String cpf) {
+    public List<Conta> listContasCliente(String cpf) {
         // Consulta o cliente com o CPF fornecido, utilizando o método consultarCliente.
         Cliente cliente = consultarCliente(cpf);
 
         // Filtra todas as contas na lista contaList, mantendo apenas aquelas associadas ao cliente.
         List<Conta> contas = contaList.stream()  // Cria um stream de contas da lista contaList.
-                .filter(conta -> conta.cliente.equals(cliente))  // Filtra contas onde o cliente associado é igual ao cliente consultado.
+                .filter(conta -> conta.getCliente().equals(cliente))  // Filtra contas onde o cliente associado é igual ao cliente consultado.
                 .collect(Collectors.toList());  // Coleta os resultados filtrados em uma nova lista de contas.
 
         // Exibe no console a lista de contas associadas ao cliente.
         System.out.println(contas);
+
+        // Retorna a lista de contas
+        return contas;
     }
+
+    /**
+     * <h2>Método totalizarSaldoCliente</h2>
+     * <p>Este método calcula o saldo total de todas as contas associadas a um cliente, dado o CPF do cliente.</p>
+     * @param cpf O CPF do cliente cujos saldos das contas serão somados.
+     * @return O saldo total das contas do cliente, representado por um número do tipo float.
+     */
+    public float totalizarSaldoCliente(String cpf) {
+        // Consulta todas as contas associadas ao cliente com o CPF fornecido,
+        // utilizando o método listContasCliente(cpf).
+        List<Conta> contas = listContasCliente(cpf);
+
+        // Utiliza o método reduce para somar o saldo de todas as contas.
+        // O método stream() cria um fluxo de contas, e map() acessa o saldo de cada conta.
+        // O reduce() acumula os saldos, somando-os de forma sequencial.
+        float saldoTotal = contas.stream()
+                .map(Conta::getSaldo) // Acessa o saldo de cada conta na lista.
+                .reduce(0f, (saldo, maisSaldo) -> saldo + maisSaldo); // Soma todos os saldos, começando com 0f.
+
+        // Retorna o saldo total das contas do cliente.
+        return saldoTotal;
+    }
+
 
 }

@@ -55,6 +55,16 @@ public class Conta {
     }
 
     /**
+     * <h2>Método getSaldo</h2>
+     * <p>Este método retorna o saldo atual da conta bancária.</p>
+     * @return O saldo atual da conta, representado por um número do tipo float.
+     */
+    public float getSaldo() {
+        // Retorna o saldo atual da conta
+        return saldo;
+    }
+
+    /**
      * <h2>Método setCliente</h2>
      * <p>Associa um novo cliente à conta.</p>
      * @param cliente O cliente a ser associado à conta.
