@@ -2,6 +2,7 @@ package banco.entities;  // Declara o pacote 'banco.entities', onde a classe Ban
 
 import java.util.ArrayList;  // Importa a classe ArrayList para utilizar listas dinâmicas
 import java.util.List;  // Importa a interface List para criar listas de objetos
+import java.util.stream.Collectors;
 
 /**
  * <h2>Classe Banco</h2>
@@ -116,4 +117,23 @@ public class Banco {
         // Associa o cliente à conta, se não houver erro
         conta.setCliente(cliente);  // Atribui o cliente à conta utilizando o método setCliente
     }
+
+    /**
+     * <h2>Método ListContasCliente</h2>
+     * <p>Este método lista todas as contas associadas a um cliente específico, dado o CPF do cliente.</p>
+     * @param cpf O CPF do cliente cujas contas serão listadas.
+     */
+    public void ListContasCliente(String cpf) {
+        // Consulta o cliente com o CPF fornecido, utilizando o método consultarCliente.
+        Cliente cliente = consultarCliente(cpf);
+
+        // Filtra todas as contas na lista contaList, mantendo apenas aquelas associadas ao cliente.
+        List<Conta> contas = contaList.stream()  // Cria um stream de contas da lista contaList.
+                .filter(conta -> conta.cliente.equals(cliente))  // Filtra contas onde o cliente associado é igual ao cliente consultado.
+                .collect(Collectors.toList());  // Coleta os resultados filtrados em uma nova lista de contas.
+
+        // Exibe no console a lista de contas associadas ao cliente.
+        System.out.println(contas);
+    }
+
 }
