@@ -1,0 +1,131 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9f162a09-29f1-428c-98ab-6b77a025b623\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/atividade07/project/src/app/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/atividade07/project/src/entities/Banco.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/atividade07/project/src/entities/Conta.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Programa-orientada-a-objetos.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Programa-orientada-a-objetos.iml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Xamacardoso&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git\",\r\n    \"accountId\": \"f328a321-f654-4551-bc19-b5c9f881971f\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2onxqhq3f3SMacn7r7T9PTfLnYH\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/labir/Documents/kaioads/Programa-orientada-a-objetos\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9f162a09-29f1-428c-98ab-6b77a025b623\" name=\"Changes\" comment=\"\" />\r\n      <created>1731519335095</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1731519335095</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3134b49fc3806c6a253e6bfc0166edb94cfd9aec)
++++ b/.idea/workspace.xml	(date 1733406707314)
+@@ -5,11 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/atividade07/project/src/app/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/atividade07/project/src/entities/Banco.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/atividade07/project/src/entities/Conta.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Programa-orientada-a-objetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programa-orientada-a-objetos.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/atividade07/project/src/entities/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/atividade07/project/src/entities/Banco.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -32,12 +29,12 @@
+     &quot;assignee&quot;: &quot;Xamacardoso&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git",
+-    "accountId": "f328a321-f654-4551-bc19-b5c9f881971f"
+-  }
+-}]]></component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git&quot;,
++    &quot;accountId&quot;: &quot;f328a321-f654-4551-bc19-b5c9f881971f&quot;
++  }
++}</component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -49,18 +46,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/labir/Documents/kaioads/Programa-orientada-a-objetos",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/labir/Documents/kaioads/Programa-orientada-a-objetos&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+Index: atividade07/project/src/entities/Banco.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package entities;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\n/**\r\n * Representa um banco que gerencia uma lista de contas.\r\n */\r\npublic class Banco {\r\n    // Lista que armazena as contas do banco.\r\n    private List<Conta> contas;\r\n\r\n    /**\r\n     * Construtor do banco. Inicializa a lista de contas.\r\n     */\r\n    public Banco() {\r\n        // Inicializa a lista de contas como uma nova ArrayList.\r\n        this.contas = new ArrayList<>();\r\n    }\r\n\r\n    /**\r\n     * Adiciona uma nova conta à lista de contas do banco.\r\n     *\r\n     * @param novaConta A conta a ser inserida.\r\n     */\r\n    public void inserir(Conta novaConta) {\r\n        // Adiciona a conta à lista de contas.\r\n        contas.add(novaConta);\r\n    }\r\n\r\n    /**\r\n     * Consulta uma conta com base no número da conta.\r\n     *\r\n     * @param numero O número da conta a ser consultada.\r\n     * @return A conta encontrada ou null se a conta não existir.\r\n     */\r\n    public Conta consultar(String numero) {\r\n        // Variável para armazenar a conta procurada, inicializada como null.\r\n        Conta contaProcurada = null;\r\n\r\n        // Percorre a lista de contas para encontrar a conta com o número correspondente.\r\n        for (Conta conta : contas) {\r\n            // Compara o número da conta atual com o número passado como parâmetro.\r\n            if (conta.getNumero().equals(numero)) {\r\n                // Se encontrar a conta, armazena e sai do loop.\r\n                contaProcurada = conta;\r\n                break;\r\n            }\r\n        }\r\n        // Retorna a conta encontrada ou null se não encontrar.\r\n        return contaProcurada;\r\n    }\r\n\r\n    /**\r\n     * Consulta o índice de uma conta na lista com base no número da conta.\r\n     *\r\n     * @param numero O número da conta a ser consultada.\r\n     * @return O índice da conta na lista ou -1 se a conta não existir.\r\n     */\r\n    public int consultarPorIndice(String numero) {\r\n        // Variável para armazenar o índice da conta procurada, inicializada como -1 (não encontrado).\r\n        int indiceProcurado = -1;\r\n\r\n        // Percorre a lista de contas para encontrar o índice da conta com o número correspondente.\r\n        for (int i = 0; i < contas.size(); i++) {\r\n            // Compara o número da conta na posição i com o número passado como parâmetro.\r\n            if (contas.get(i).getNumero().equals(numero)) {\r\n                // Se encontrar a conta, armazena o índice e sai do loop.\r\n                indiceProcurado = i;\r\n                break;\r\n            }\r\n        }\r\n        // Retorna o índice encontrado ou -1 se não encontrar.\r\n        return indiceProcurado;\r\n    }\r\n\r\n    /**\r\n     * Exclui uma conta da lista com base no número da conta.\r\n     *\r\n     * @param numero O número da conta a ser excluída.\r\n     */\r\n    public void excluir(String numero) {\r\n        // Obtém o índice da conta a ser excluída.\r\n        int indiceProcurado = consultarPorIndice(numero);\r\n\r\n        // Verifica se a conta foi encontrada (índice diferente de -1).\r\n        if (indiceProcurado != -1) {\r\n            // Move os elementos da lista para a esquerda, sobrescrevendo a conta a ser removida.\r\n            for (int i = indiceProcurado; i < contas.size() - 1; i++) {\r\n                // Move o próximo elemento para a posição atual.\r\n                contas.set(i, contas.get(i + 1));\r\n            }\r\n            // Remove o último elemento da lista, que agora é duplicado após a movimentação.\r\n            contas.remove(contas.size() - 1);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/atividade07/project/src/entities/Banco.java b/atividade07/project/src/entities/Banco.java
+--- a/atividade07/project/src/entities/Banco.java	(revision 3134b49fc3806c6a253e6bfc0166edb94cfd9aec)
++++ b/atividade07/project/src/entities/Banco.java	(date 1733408834230)
+@@ -94,4 +94,48 @@
+             contas.remove(contas.size() - 1);
+         }
+     }
++
++    public void depositar(String numero, float valor){
++        Conta contaProcurada = consultar(numero);
++
++        if(contaProcurada != null) contaProcurada.depositar(valor);
++        else System.out.println("Conta não encontrada");
++    }
++
++    public void tranferir(String numeroRecebe, String numeroManda, float valor){
++        Conta recebe = consultar(numeroRecebe);
++        Conta manda = consultar(numeroManda);
++
++        if((recebe != null && manda != null)){
++            manda.sacar(valor);
++            recebe.depositar(valor);
++        }
++
++    }
++
++    public void aleterar(Conta conta){
++        Conta contaProcurada = consultar(conta.getNumero());
++
++        if(contaProcurada != null){
++            int index = consultarPorIndice(contaProcurada.getNumero());
++
++            if(index >= 0 && index < contas.size())
++                contas.set(index,conta);
++        }
++    }
++
++    public void transferirArray(List<Conta> contas, float valor){
++        if(valor < 0.0){
++            for(int i = 0; i < contas.size()-1; i++){
++                contas.get(i).depositar(valor);
++            }
++        }
++    }
++
++    public int qunatidadeContasBanco(){
++        return contas.size();
++    }
++    public int quantidadeContasUsuario(List<Conta> contas){
++        return  contas.size();
++    }
+ }
