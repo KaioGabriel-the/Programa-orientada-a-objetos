@@ -6,7 +6,7 @@ export class Postagem {
     private static nextId: number = 0;
     
     // ID único da postagem. É inicializado com 0, mas é atribuído na criação da postagem.
-    private id: number = 0;
+    public id: number = 0;
 
     // Texto da postagem, que pode ser acessado e modificado publicamente.
     public texto: string;
