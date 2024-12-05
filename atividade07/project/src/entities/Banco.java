@@ -94,4 +94,48 @@ public class Banco {
             contas.remove(contas.size() - 1);
         }
     }
+
+    public void depositar(String numero, float valor){
+        Conta contaProcurada = consultar(numero);
+
+        if(contaProcurada != null) contaProcurada.depositar(valor);
+        else System.out.println("Conta não encontrada");
+    }
+
+    public void tranferir(String numeroRecebe, String numeroManda, float valor){
+        Conta recebe = consultar(numeroRecebe);
+        Conta manda = consultar(numeroManda);
+
+        if((recebe != null && manda != null)){
+            manda.sacar(valor);
+            recebe.depositar(valor);
+        }
+
+    }
+
+    public void aleterar(Conta conta){
+        Conta contaProcurada = consultar(conta.getNumero());
+
+        if(contaProcurada != null){
+            int index = consultarPorIndice(contaProcurada.getNumero());
+
+            if(index >= 0 && index < contas.size())
+                contas.set(index,conta);
+        }
+    }
+
+    public void transferirArray(List<Conta> contas, float valor){
+        if(valor < 0.0){
+            for(int i = 0; i < contas.size()-1; i++){
+                contas.get(i).depositar(valor);
+            }
+        }
+    }
+
+    public int qunatidadeContasBanco(){
+        return contas.size();
+    }
+    public int quantidadeContasUsuario(List<Conta> contas){
+        return  contas.size();
+    }
 }
