@@ -4,18 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Representa um banco que gerencia uma lista de contas.
+ * Representa um banco que gerencia uma lista de contas e clientes.
  */
 public class Banco {
     // Lista que armazena as contas do banco.
     private List<Conta> contas;
+    private List<Cliente> clientes;
 
     /**
-     * Construtor do banco. Inicializa a lista de contas.
+     * Construtor do banco. Inicializa as listas de contas e clientes.
      */
     public Banco() {
         // Inicializa a lista de contas como uma nova ArrayList.
         this.contas = new ArrayList<>();
+        // Inicializa a lista de clientes como uma nova ArrayList.
+        this.clientes = new ArrayList<>();
     }
 
     /**
@@ -26,6 +29,16 @@ public class Banco {
     public void inserir(Conta novaConta) {
         // Adiciona a conta à lista de contas.
         contas.add(novaConta);
+    }
+
+    /**
+     * Adiciona um cliente à lista de clientes do banco.
+     *
+     * @param cliente O cliente a ser inserido.
+     */
+    public void inserirCliente(Cliente cliente) {
+        // Adiciona o cliente à lista de clientes.
+        clientes.add(cliente);
     }
 
     /**
@@ -52,6 +65,22 @@ public class Banco {
     }
 
     /**
+     * Realiza um saque de um valor em uma conta específica.
+     *
+     * @param numero O número da conta onde o saque será realizado.
+     * @param valor O valor a ser sacado.
+     */
+    public void sacar(String numero, float valor) {
+        // Consulta a conta pelo número.
+        Conta contaProcurada = consultar(numero);
+        // Verifica se a conta foi encontrada.
+        if (contaProcurada != null) {
+            // Realiza o saque na conta.
+            contaProcurada.sacar(valor);
+        }
+    }
+
+    /**
      * Consulta o índice de uma conta na lista com base no número da conta.
      *
      * @param numero O número da conta a ser consultada.
@@ -72,6 +101,39 @@ public class Banco {
         }
         // Retorna o índice encontrado ou -1 se não encontrar.
         return indiceProcurado;
+    }
+
+    /**
+     * Consulta um cliente pelo CPF.
+     *
+     * @param cpf O CPF do cliente a ser consultado.
+     * @return O cliente encontrado ou null se o cliente não existir.
+     */
+    public Cliente consultarCliente(String cpf) {
+        // Variável para armazenar o cliente procurado, inicializada como null.
+        Cliente clienteProcurada = null;
+
+        // Percorre a lista de clientes para encontrar o cliente com o CPF correspondente.
+        for (Cliente cliente : clientes) {
+            // Compara o CPF do cliente atual com o CPF passado como parâmetro.
+            if(cliente.getCpf().equals(cpf)) {
+                // Se encontrar o cliente, armazena e sai do loop.
+                clienteProcurada = cliente;
+            }
+        }
+        // Retorna o cliente encontrado ou null se não encontrar.
+        return clienteProcurada;
+    }
+
+    /**
+     * Associa uma conta a um cliente.
+     *
+     * @param conta A conta a ser associada.
+     * @param cliente O cliente a quem a conta será associada.
+     */
+    public void associarContaCliente(Conta conta, Cliente cliente) {
+        // Associa a conta ao cliente utilizando o método setContas da classe Cliente.
+        cliente.setContas(conta);
     }
 
     /**
@@ -121,7 +183,7 @@ public class Banco {
      * @param numeroManda O número da conta de onde o valor será retirado.
      * @param valor O valor a ser transferido.
      */
-    public void tranferir(String numeroRecebe, String numeroManda, float valor) {
+    public void transferir(String numeroRecebe, String numeroManda, float valor) {
         // Consulta as contas de origem e destino pelo número.
         Conta recebe = consultar(numeroRecebe);
         Conta manda = consultar(numeroManda);
