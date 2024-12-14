@@ -195,6 +195,17 @@ public class Banco {
         }
     }
 
+    public void depositarMulContas(Conta conta, List<Conta> contasDestinos, float valor) {
+        float depositos = conta.getSaldo() / contasDestinos.size();
+
+        if(valor <= depositos) {
+            for (Conta contaDestino : contasDestinos) {
+                conta.sacar(valor);
+                contaDestino.depositar(valor);
+            }
+        }
+    }
+
     public List<Cliente> getClientes () {
         return clientes;
     }
