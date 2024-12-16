@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
-    private int nextId;
+    private static int nextId;
     public int id;
     public String nome;
     public String cpf;

@@ -60,6 +60,17 @@ public class Banco {
         in.close();
     }
 
+    public void sacar(Conta conta, Float valor){
+        if(valor <= conta.getSaldo()){
+            conta.sacar(valor);
+            System.out.println(conta.toString());
+            System.out.println("saque realizado com sucesso");
+        }
+        else {
+            System.out.println("Saldo insuficiente");
+        }
+    }
+
     public void transferir(Conta conta, Conta destino, float valor) {
         if (conta.sacar(valor) && destino.depositar(valor)) {
             conta.sacar(valor);
@@ -188,8 +199,8 @@ public class Banco {
         return contasSemCliente;
     }
 
-    public void definirTitularidade(Cliente cliente) {
-        List<Conta> contasNull = buscarContasSemCliente();
+    public void definirTitularidade(Cliente cliente, List<Conta> contas) {
+        List<Conta> contasNull = contas;
         for (Conta conta : contasNull) {
             conta.setCliente(cliente);
         }

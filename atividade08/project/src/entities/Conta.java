@@ -1,7 +1,7 @@
 package entities;
 
 public class Conta {
-    private int nextId = 0;
+    private static int nextId = 0;
     private int id;
     public int numeroConta;
     public float saldo;
@@ -41,4 +41,9 @@ public class Conta {
     public float getSaldo() {return saldo;}
 
     public int getNumeroConta() {return numeroConta;}
+
+    @Override
+    public String toString() {
+        return "Conta( " + getId() + " ) \n" + "Numero da conta: " + numeroConta +"\nSaldo: R$ " + saldo + "\nCliente: " + cliente + "\n";
+    }
 }
