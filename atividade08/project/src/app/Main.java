@@ -34,7 +34,7 @@ public class Main {
                     "15- alterar dados de cliente\n" +
                     "16- Lincar conta ao cliente\n" +
                     "17- Excluir cliente\n" +
-                    "18- Listar contas de cliente\n"
+                    "0- Sair do programa"
                     ;
         Scanner in = new Scanner(System.in);
         int opcao = -1;
@@ -76,6 +76,28 @@ public class Main {
                     break;
                 case 11:
                     excluirConta(banco);
+                    break;
+                case 12:
+                    cadastrarCliente(banco);
+                    break;
+                case 13:
+                    listarCliente(banco);
+                    break;
+                case 14:
+                    listarClientes(banco);
+                    break;
+                case 15:
+                    alterarDados(banco);
+                    break;
+                case 16:
+                    lincarContaCliente(banco);
+                    break;
+                case 17:
+                    excluirCliente(banco);
+                    break;
+                default:
+                    opcao = 0;
+                    System.out.println("Opcao invalida!");
             }
         }while (opcao != 0);
     }
@@ -246,5 +268,77 @@ public class Main {
             System.out.println("Conta excluida com sucesso! \n");
         }
     }
-}
 
+    public static void cadastrarCliente(Banco banco) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite o nome do cliente: ");
+        String nomeCliente = in.next();
+        System.out.println("Digite o CPF do cliente: ");
+        String cpfCliente = in.next();
+        System.out.println("Digite o telefone do cliente: ");
+        String telefoneCliente = in.next();
+        System.out.println("Digite a data de nascimento do cliente(dd/MM/yyyy): ");
+        String dataNascimento = in.next();
+        Cliente cliente = new Cliente(nomeCliente, cpfCliente, telefoneCliente, dataNascimento);
+        banco.cadastrarCliente(cliente);
+    }
+
+    public static void listarCliente(Banco banco) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite o CPF do cliente: ");
+        String cpfCliente = in.next();
+        Cliente cliente = banco.buscarCliente(cpfCliente);
+        if(cliente != null) {
+            System.out.println(cliente.toString());
+        }
+    }
+
+    public static void listarClientes(Banco banco) {
+        List<Cliente> clientes = banco.getClientes();
+
+        for (Cliente cliente : clientes) {
+            System.out.println(cliente.toString());
+        }
+    }
+
+    public static void alterarDados(Banco banco) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Digite o CPF do cliente: ");
+        String cpfCliente = in.next();
+        Cliente cliente = banco.buscarCliente(cpfCliente);
+        if(cliente != null) {
+            banco.alterarCliente(cliente);
+        }
+    }
+
+    public static void lincarContaCliente(Banco banco) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite o CPF do cliente: ");
+        String cpfCliente = in.next();
+        Cliente cliente = banco.buscarCliente(cpfCliente);
+
+        System.out.println("Digite o numero da conta: ");
+        int numeroConta = in.nextInt();
+
+        Conta conta = banco.buscarConta(numeroConta);
+
+        if((cliente != null) && (conta != null)) {
+            banco.lincarContaCliente(cpfCliente,numeroConta);
+            System.out.println("Conta alterada com sucesso! \n");
+            System.out.println(conta.toString());
+        }
+    }
+
+    public static void excluirCliente(Banco banco) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite o CPF do cliente: ");
+        String cpfCliente = in.next();
+        Cliente cliente = banco.buscarCliente(cpfCliente);
+        if(cliente != null) {
+            banco.excluirCliente(cpfCliente);
+            System.out.println("Cliente excluida com sucesso! \n");
+        }
+    }
+
+}

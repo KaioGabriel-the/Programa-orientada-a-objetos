@@ -33,4 +33,9 @@ public class Cliente {
     public List<Conta> getContas() { return contas; }
 
     public void setContas(Conta conta) { contas.add(conta); }
+
+    @Override
+    public String toString() {
+        return "Cliente( " + id +" ) \n" + "Nome: " + nome + "\n" + "CPF: " + cpf + "\n" + "Telefone: " + telefone + "Data de nascimento: " + dataNascimento ;
+    }
 }
