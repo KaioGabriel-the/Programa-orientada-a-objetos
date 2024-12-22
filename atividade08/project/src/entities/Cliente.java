@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Cliente {
     private static int nextId;
-    public int id;
-    public String nome;
-    public String cpf;
-    public String telefone;
-    public String dataNascimento;
+    private int id;
+    private String nome;
+    private String cpf;
+    private String telefone;
+    private String dataNascimento;
     List<Conta> contas;
 
     public Cliente(String nome, String cpf, String telefone, String dataNascimento) {
@@ -22,15 +22,15 @@ public class Cliente {
         contas = new ArrayList<Conta>();
     }
 
-    public int getId() { return id; }
+    private int getId() { return id; }
 
-    public String getCpf() { return cpf;}
+    private String getCpf() { return cpf;}
 
     public void setCpf(String cpf) { this.cpf = cpf;}
 
     public void setTelefone(String newTelefo){ this.telefone = telefone; }
 
-    public List<Conta> getContas() { return contas; }
+    private List<Conta> getContas() { return contas; }
 
     public void setContas(Conta conta) { contas.add(conta); }
 

@@ -3,8 +3,8 @@ package entities;
 public class Conta {
     private static int nextId = 0;
     private int id;
-    public int numeroConta;
-    public float saldo;
+    private int numeroConta;
+    private float saldo;
     private Cliente cliente;
 
     public Conta(int numeroConta, float saldo) {
@@ -32,15 +32,16 @@ public class Conta {
 
         return false;
     }
-    public Cliente getCliente() { return this.cliente; }
+
+    private Cliente getCliente() { return this.cliente; }
 
     public void setCliente(Cliente cliente) { this.cliente = cliente; }
 
-    public int getId() { return this.id; }
+    private int getId() { return this.id; }
 
-    public float getSaldo() {return saldo;}
+    private float getSaldo() {return saldo;}
 
-    public int getNumeroConta() {return numeroConta;}
+    private int getNumeroConta() {return numeroConta;}
 
     @Override
     public String toString() {
