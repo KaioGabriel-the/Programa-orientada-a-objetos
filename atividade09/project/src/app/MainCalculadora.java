@@ -3,7 +3,7 @@ package app;
 import entities.Calculadora;
 import entities.Hora;
 
-public class Main {
+public class MainCalculadora {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora(1,2);
         System.out.println(calculadora.somar());

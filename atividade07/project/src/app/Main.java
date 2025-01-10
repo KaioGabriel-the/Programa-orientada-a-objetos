@@ -1,13 +1,14 @@
-package app;  // Declara o pacote 'app', onde a classe Main está localizada
+package app;  // Declara o pacote 'app', onde a classe MainCalculadora está localizada
 
 import entities.Banco;  // Importa a classe Banco, que representa o banco e suas operações
 import entities.Cliente;  // Importa a classe Cliente, que representa um cliente bancário
 import entities.Conta;  // Importa a classe Conta, que representa uma conta bancária
 
+import java.text.ParseException;
 import java.util.Scanner;  // Importa a classe Scanner para ler entradas do usuário
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         Banco banco = new Banco();  // Cria uma instância do banco
 
         // Definição do menu de opções que o usuário pode escolher
@@ -159,10 +160,10 @@ public class Main {
     }
 
     // Método para inserir um novo cliente no banco
-    public static void inserirClientes(Banco banco) {
+    public static void inserirClientes(Banco banco) throws ParseException {
         Scanner in = new Scanner(System.in);  // Cria o Scanner para ler as entradas
         System.out.println("Digite o id do cliente: ");
-        String id = in.next();  // Lê o ID do cliente
+        int id = in.nextInt();    // Lê o ID do cliente
 
         System.out.println("Digite o nome do cliente: ");
         String nome = in.next();  // Lê o nome do cliente
