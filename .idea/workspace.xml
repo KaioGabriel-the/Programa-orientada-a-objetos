@@ -5,20 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="fazendo metodos">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atividade10/project/src/app/MainVeiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/veiculo/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/veiculo/CarroEletrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/veiculo/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade10/project/src/app/MainProjectCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/banco/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/banco/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/calculadora/CalculadoraCm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade10/project/src/entities/calculadora/CalcularoaCientifica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa-orientada-a-objetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programa-orientada-a-objetos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atividade07/project/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/atividade07/project/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atividade09/project/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/atividade09/project/src/app/MainCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/Audio_Exercise/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/Audio_Exercise/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/Audio_Exercise/entities/ControleVolume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/Audio_Exercise/entities/ControleVolume.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/MainCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/MainCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/MainVeiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/app/MainVeiculo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/app/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Banco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/banco/entities/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Hora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/Hora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/CarroEletrico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/CarroEletrico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programa-orientada-a-objetos/entities/veiculo/Veiculo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +51,12 @@
     &quot;assignee&quot;: &quot;Xamacardoso&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git",
-    "accountId": "dd90a0f3-98b5-467c-a30a-733f9e7a44a5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git&quot;,
+    &quot;accountId&quot;: &quot;dd90a0f3-98b5-467c-a30a-733f9e7a44a5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -61,14 +71,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MainProjectCalculadora.executor": "Run",
     "Application.MainVeiculo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/labir/Documents/kaioads/Programa-orientada-a-objetos",
+    "last_opened_file_path": "C:/Users/kkaio/OneDrive/Documentos/atividades/Programa-orientada-a-objetos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +98,14 @@
       <recent name="C:\Users\labir\Documents\kaioads\Programa-orientada-a-objetos\atividade10\project\src" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,6 +116,7 @@
       <updated>1731519335095</updated>
       <workItem from="1734895350275" duration="2028000" />
       <workItem from="1734897947835" duration="425000" />
+      <workItem from="1736626637485" duration="8014000" />
     </task>
     <task id="LOCAL-00001" summary="fazendo metodos">
       <option name="closed" value="true" />
