@@ -1,27 +1,51 @@
 package entities.banco;
 
 public class Conta {
-    private static int _id;
-    private String _numero;
-    public float _saldo;
+    private int _id;
+    public String numero;
+    public double saldo;
+    public Cliente _cliente;
 
-    public Conta(String numero, float saldo) {
+    public Conta(String numero, double saldo) {
+        this.numero = numero;
+        this.saldo = saldo;
         this._id = 0;
-        _id++;
-        this._numero = numero;
-        this._saldo = saldo;
     }
 
-    public static int get_id() {
-        return _id;
+    public int get_id() {
+       return this._id;
+    }
+
+    public void set_id(int _id) {
+        this._id = _id;
     }
 
     public String get_numero() {
-        return _numero;
+        return numero;
     }
 
-    public float get_saldo() {
-        return _saldo;
+    public double get_saldo() {
+        return saldo;
     }
 
+    public Cliente get_cliente() {
+        return _cliente;
+    }
+
+    public void set_cliente(Cliente cliente) {
+        this._cliente = cliente;
+    }
+
+    public void sacar(double valor) {
+        this.saldo -= valor;
+    }
+
+    public void depositar(double valor) {
+        this.saldo += valor;
+    }
+
+    public void transferir(Conta destino, double valor) {
+        this.saldo -= valor;
+        destino.depositar(valor);
+    }
 }
