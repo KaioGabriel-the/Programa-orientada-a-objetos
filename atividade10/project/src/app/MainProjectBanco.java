@@ -57,9 +57,7 @@ public class MainProjectBanco {
                     String numeroContaImposto = in.nextLine();
                     System.out.println("Digite o saldo da conta: ");
                     double saldoContaImposto = in.nextDouble();
-                    System.out.println("Digite o valor do imposto: ");
-                    double valorImposto = in.nextDouble();
-                    ContaImposto contaImposto = new ContaImposto(numeroContaImposto,saldoContaImposto,valorImposto);
+                    ContaImposto contaImposto = new ContaImposto(numeroContaImposto,saldoContaImposto);
                     banco.inserirConta(contaImposto);
                     System.out.println("Conta cadastrada com sucesso!");
                     break;

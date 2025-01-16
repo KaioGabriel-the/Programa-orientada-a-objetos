@@ -1,4 +1,5 @@
 package entities.banco;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,12 +8,14 @@ public class Banco {
     private List<Cliente> clientes;
     private int idClienteAtual;
     private int idContaAtual;
+    private File file;
 
     public Banco() {
         this.contas = new ArrayList<>();
         this.clientes = new ArrayList<>();
         this.idClienteAtual = 0;
         this.idContaAtual = 0;
+        file = new File("dadosbanco.text");
     }
 
     public void inserirConta(Conta conta) {
@@ -157,5 +160,13 @@ public class Banco {
 
     public boolean ehPoupanca(Conta conta) {
         return conta instanceof Poupanca;
+    }
+
+    public void SalvarArquivo(){
+        if(file.exists()){
+
+        }else{
+
+        }
     }
 }
