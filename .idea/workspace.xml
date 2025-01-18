@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="fazendo metodos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="fazendo metodos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +26,12 @@
     &quot;assignee&quot;: &quot;Xamacardoso&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git",
-    "accountId": "f328a321-f654-4551-bc19-b5c9f881971f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KaioGabriel-the/Programa-orientada-a-objetos.git&quot;,
+    &quot;accountId&quot;: &quot;f328a321-f654-4551-bc19-b5c9f881971f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,7 +55,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/labir/Documents/kaioads/Programa-orientada-a-objetos/atividade10",
+    "last_opened_file_path": "C:/Users/kkaio/OneDrive/Documentos/atividades/Programa-orientada-a-objetos/atividade10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +73,14 @@
       <recent name="C:\Users\labir\Documents\kaioads\Programa-orientada-a-objetos\atividade10\project\src" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,6 +93,7 @@
       <workItem from="1734897947835" duration="425000" />
       <workItem from="1736626637485" duration="8014000" />
       <workItem from="1736697743195" duration="11806000" />
+      <workItem from="1737225288356" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="fazendo metodos">
       <option name="closed" value="true" />
