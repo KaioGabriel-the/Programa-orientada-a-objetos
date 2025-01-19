@@ -1,13 +1,13 @@
 package entities.estoque;
 
 public class Produto {
-    protected String codigo;
+    protected int codigo;
     protected String descricao;
     protected int quantidade;
     protected double valor;
 
     public Produto(){
-        this.codigo = "";
+        this.codigo = 0;
         this.descricao = "";
         this.quantidade = 0;
         this.valor = 0;
@@ -21,11 +21,11 @@ public class Produto {
         this.valor = valor;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
