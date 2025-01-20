@@ -66,11 +66,13 @@ public class Estoque {
     }
 
     public void listarProdutosInvalidos() {
-        List<ProdutoPerecivel> produtos = new ArrayList<>();
+        List<Produto> produtosInvalidos = new ArrayList<>();
 
         for (Produto produto : this.produtos) {
             if(produto instanceof ProdutoPerecivel){
-                produtos.add((ProdutoPerecivel)produto);
+                if(((ProdutoPerecivel) produto).Valido()){
+                    produtosInvalidos.add(produto);
+                }
             }
         }
 

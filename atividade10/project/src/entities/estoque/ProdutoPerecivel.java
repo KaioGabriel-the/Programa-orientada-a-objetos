@@ -35,14 +35,8 @@ public class ProdutoPerecivel extends Produto {
                 "validade --> " + validade;
     }
 
-    public boolean Valido(Date consultaValidade) {
-        if ((getValidade() != null) && (consultaValidade != null)) {
-            if (!consultaValidade.after(getValidade())) {
-                System.out.println("Produto invalido");
-                return true;
-            }
-        }
-        return false;
+    public boolean Valido() {
+        return  this.validade.before(new Date());
     }
 
     @Override
@@ -50,7 +44,7 @@ public class ProdutoPerecivel extends Produto {
         Scanner in = new Scanner(System.in);
         Date dataAtual = new Date();
 
-        if (Valido(dataAtual)) {
+        if (Valido()) {
             super.repor(qtdProuduto);
             System.out.println("Reposição feita com sucesso");
         } else {
@@ -63,7 +57,7 @@ public class ProdutoPerecivel extends Produto {
         Scanner in = new Scanner(System.in);
         Date dataAtual = new Date();
 
-        if (Valido(dataAtual)) {
+        if (Valido()) {
             super.darBaixa(qtdProuduto);
             System.out.println("Produto contabilizado com sucesso");
         } else {
