@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="fazendo metodos" />
+    <list default="true" id="9f162a09-29f1-428c-98ab-6b77a025b623" name="Changes" comment="fazendo metodos">
+      <change afterPath="$PROJECT_DIR$/atividade11/atividade11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade11/src/entities/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade11/src/entities/exceptions/ObjetoNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade11/src/entities/exceptions/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atividade11/src/entities/exceptions/ValorinconpativelException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atividade10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atividade10/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +64,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kkaio/OneDrive/Documentos/atividades/Programa-orientada-a-objetos/atividade10",
+    "last_opened_file_path": "C:/Users/kkaio/OneDrive/Documentos/atividades/Programa-orientada-a-objetos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +103,7 @@
       <workItem from="1736626637485" duration="8014000" />
       <workItem from="1736697743195" duration="11806000" />
       <workItem from="1737225288356" duration="51000" />
+      <workItem from="1737679673445" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="fazendo metodos">
       <option name="closed" value="true" />
